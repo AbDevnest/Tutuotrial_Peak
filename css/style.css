@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+  --primary-color: #6B46FF;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter Tight", sans-serif;
+  list-style: none;
+}
+
+
+.nv-search {
+  padding:3px 10px;
+  background-color: transparent !important;
+}
+
+.nv-search button {
+  border: none;
+}
+
+.fist-inp {
+  background-color: transparent !important;
+}
+
+.search-icon {
+  color: var(--primary-color);
+}
+
+
+.subscribe-btn {
+  background-color: var(--primary-color) !important;
+  color: white !important;
+}
+
+.subscribe-btn:hover {
+  background-color: #5239f1 !important;
+}
+
+.subscribe-btn2 {
+  background-color: #6553db !important;
+  box-shadow: 0px 0px 14px 2px #a69ede;
+  color: white !important;
+}
+
+.subscribe-btn2:hover {
+  background-color: #452de2 !important;
+}
+
+.globe-btn {
+  border: 1px solid var(--primary-color) !important;
+  color: var(--primary-color) !important;
+}
+
+.globe-btn:hover {
+  background-color: var(--primary-color) !important;
+  color: white !important;
+}
+
+.secondary-btn {
+  border: 1px solid #847fa1 !important;
+  color: #344054 !important;
+}
+
+.secondary-btn:hover {
+  color: #F4EBFF !important;
+  background-color: #847fa1 !important;
+}
+
+.container-xxl {
+  margin: auto;
+}
+
+.main {
+  width: 100%;
+}
+
+section {
+  width: 100%;
+}
+
+.container {
+  max-width: 1210px !important;
+  margin: 20px auto;
+}
+
+.first-section-text {
+  margin: auto;
+}
+
+.first-section-text span {
+  background-color: #a5a0b853;
+  color: var(--primary-color);
+  border-radius: 20px;
+  padding: 2px 15px;
+  display: inline-block;
+}
+
+.first-section-text h1 {
+  font-weight: bold;
+  font-size: 60px;
+  text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.2);
+}
+
+.fist-inp {
+  border: none;
+  outline: none;
+}
+
+.secondary-txt {
+  color: #475467;
+  font-size: 20px;
+}
+
+.secondary-txt2 {
+  color: #475467;
+  font-size: 18px;
+}
+
+.secondary-txt3 {
+  font-size: 16px;
+  color: #475467;
+}
+
+/* section second start */
+.heading2 {
+  color: #101828;
+  font-size: 36px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.heading5 {
+  font-size: 18px;
+  color: #101828;
+  font-weight: 500;
+}
+
+.feature-top p:first-child {
+  font-size: 16px;
+  color: #6B46FF;
+  font-weight: 600;
+  text-shadow: 0px 1px 8px #6488be83;
+}
+
+
+.feature-card {
+  border: 1px solid #D0D5DD;
+  border-radius: 10px;
+  text-align: left;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  cursor: pointer;
+  transition: all 300ms;
+}
+
+.feature-card:hover {
+  box-shadow: 0px 0px 5px 2px #7792c92d;
+  transform: translateY(-3px);
+}
+
+
+.feature-logo img {
+  width: 70px;
+  height: 70px;
+  padding: 7px;
+  border: 10px solid #F4EBFF;
+  border-radius: 50%;
+  background-color: #dedbe0;
+  margin-bottom: 30px;
+}
+
+.feature-card h3 {
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.feature-card p {
+  font-size: 16px;
+  color: #667085;
+}
+
+/* explore-section */
+.explore-sec {
+  position: relative;
+  overflow: hidden;
+}
+
+
+.explore-sec-inner {
+  width: 92%;
+  height: 60vh;
+  background-color: #F4EBFF;
+  position: absolute;
+  top: 340px;
+  left: 8%;
+  z-index: -3;
+}
+
+.gt-btn {
+  color: var(--primary-color) !important;
+  outline: none !important;
+  font-weight: 600 !important;
+  transition: all 300ms;
+}
+
+.gt-btn img {
+  transition: all 300ms;
+}
+
+.gt-btn:hover {
+  outline: none !important;
+}
+
+.gt-btn:hover img {
+  transform: translateX(4px);
+}
+
+/* set up section */
+.set-up {
+  background-color: #F4EBFF;
+  padding: 90px;
+  border-radius: 10px;
+}
+
+/* app library section */
+.country-code {
+  background: transparent;
+  border: none;
+  outline: none;
+  font-size: 14px;
+}
+
+.mobile-input {
+  background: transparent;
+  border: none;
+  outline: none;
+  font-size: 14px;
+}
+
+.app-input {
+  border: 1px solid #D0D5DD;
+  display: flex;
+  border-radius: 6px;
+}
+
+.mobile-png {
+  width: 100%;
+  height: 450px;
+}
+
+/* trending section */
+
+.trending-section {
+  background-color: #F9FAFB;
+  padding: 50px 0px;
+}
+
+.trending-links a ,.social-icon{
+  text-decoration: none;
+  font-size: 16px;
+  color: #667085;
+}
